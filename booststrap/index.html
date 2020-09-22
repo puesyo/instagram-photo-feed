@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+	</script>
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/a44b02a6d6.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
+	<!-- java script -->
+
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- styless.css -->
+	<link rel="stylesheet" href="styles.css">
+	<title>Hello, world!</title>
+</head>
+
+<body>
+	<div class="container">
+        <!-- navigation bar -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light topnav">
+			<div class="container">
+				<ul class="nav navbar-nav">
+                    <!-- li font set with google fonts -->
+					<li id="instagram"><i class="fab fa-instagram"></i> Instagram</li>
+				</ul>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#modal1">
+                                <!-- Button trigger modal -->
+								<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                                 Create a new post
+                                 </button>    
+							</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle gearIcon" href="#" id="navbarDropdownMenuLink"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="fas fa-cog"></i>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="#">Action</a>
+								<a class="dropdown-item" href="#">Another action</a>
+								<a class="dropdown-item" href="#">Something else here</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- toggle images views -->
+		<div class="main container-fluid divToggleButtons">
+			<nav class="view-options row">
+				<div class="col-xs-12 text-center">
+					<ul class="nav nav-pills">
+						<li role="presentation" class="active liStyle">
+							<a href="#grid" data-toggle="tab" class="toggleButton"><i class="fa fa-th" aria-hidden="true"></i></a>
+						</li>
+						<li role="presentation" class="liStyle">
+							<a href="#single" data-toggle="tab" class="toggleButton"><i class="fa fa-square" aria-hidden="true"></i></a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+		<!-- content -->
+		<div class="tab-content">
+			<!-- grid view -->
+            <div id="grid" class="container row no-pad tab-pane active">
+                
+                <div class="row grid">
+                    <div class="col-lg-4 col-md-6 col-8">
+                        
+                            <img class="img-thumbnail" src="pug.jpg" alt="">
+                    
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-8">
+                        
+                            <img class=" img-thumbnail" src="pomeranian.jpg" alt="">
+                        
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-8">
+                        
+                            <img class=" img-thumbnail" src="germanPinscher.jpg" alt="">
+                    
+                    </div>
+                </div>   
+                <div class="row grid"> 
+                    <div class="col-lg-4 col-md-6 col-8">
+                        
+                            <img class=" img-thumbnail" src="dog1.jpg" alt="">
+                    
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-8">
+                        
+                            <img class=" img-thumbnail" src="dog_b.jpg" alt="">
+                    
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-8">
+                        
+                            <img class=" img-thumbnail" src="dog_c.jpg" alt="">
+                    
+                    </div>
+                </div>
+                <div class="row grid">    
+                    <div class="col-lg-4 col-md-6 col-8">
+                        
+                            <img class=" img-thumbnail" src="dog_d.jpg" alt="">
+                    
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-8">
+                        
+                            <img class=" img-thumbnail" src="dog_e.jpg" alt="">
+                    
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-8">
+                        
+                            <img class=" img-thumbnail" src="dog_f.jpg" alt="">
+                    
+                    </div>
+                </div>
+                <div class="row grid">    
+                    <div class="col-lg-4 col-md-6 col-8">
+                        
+                            <img class=" img-thumbnail" src="dog_g.jpg" alt="">
+                    
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-8">
+                        
+                            <img class=" img-thumbnail" src="dog_h.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-8">
+                        
+                            <img class=" img-thumbnail" src="dog_i.jpg" alt="">
+                    </div>
+                </div>    
+            </div>
+            <!-- singel view -->
+            <div id="single" class="row no-pad tab-pane">
+            <!-- feed 1 -->
+            <div class="card" style="width: 30rem">
+                <div class="container1">
+                    <h5>My first photo</h5>
+                    <h6>09/17</h6>
+                </div>
+                <img class="card-img-top" src="pomeranian.jpg" alt="pomeranian">
+                <div class="card-body">
+                    <h6>23 Likes</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. At suscipit
+                        expedita
+                        laudantium fuga eligendi ab.
+                </div>
+                <div class="feed-footer">
+                    <a class="like">
+                        <i class="fas fa-heart"></i>
+                        <span>  Comment ...</span>
+                    </a>
+                </div>
+            </div>
+            <!-- feed 2 -->
+            <div class="card" style="width: 30rem">
+                <div class="container1">
+                    <h5>My first photo</h5>
+                    <h6>09/17</h6>
+                </div>
+                <img class="card-img-top" src="dog1.jpg" alt="lab">
+                <div class="card-body">
+                    <h6>65 Likes</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. At suscipit
+                        expedita
+                        laudantium fuga eligendi ab.
+                </div>
+                <div class="feed-footer">
+                    <a class="like">
+                        <i class="fas fa-heart"></i>
+                        <span>  Comment ...</span>
+                    </a>
+                </div>
+            </div>
+            <!-- feed 3 -->
+            <div class="card" style="width: 30rem">
+                <div class="container1">
+                    <h5>My first photo</h5>
+                    <h6>09/17</h6>
+                </div>
+                <img class="card-img-top" src="pug.jpg" alt="pug">
+                <div class="card-body">
+                    <h6>48 Likes</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. At suscipit
+                        expedita
+                        laudantium fuga eligendi ab.
+                </div>
+                <div class="feed-footer">
+                    <a class="like">
+                        <i class="fas fa-heart"></i>
+                        <span>  Comment ...</span>
+                    </a>
+                </div>
+            </div>
+            <!-- feed 4 -->
+            <div class="card" style="width: 30rem">
+                <div class="container1">
+                    <h5>My first photo</h5>
+                    <h6>09/17</h6>
+                </div>
+                <img class="card-img-top" src="germanPinscher.jpg" alt="germanPinscher">
+                <div class="card-body">
+                    <h6>79 Likes</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. At suscipit
+                        expedita
+                        laudantium fuga eligendi ab.
+                </div>
+                <div class="feed-footer">
+                    <a class="like">
+                        <i class="fas fa-heart"></i>
+                        <span>  Comment ...</span>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <textarea rows="4" cols="50"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary">Publish</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>    
+</body>
+
+</html>

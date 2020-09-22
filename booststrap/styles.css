@@ -1,0 +1,97 @@
+.container1 {
+    display: flex;
+    justify-content: space-between; 
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    
+}
+.card {
+    margin: auto;
+    margin-top: 10px;
+}
+
+.filter-button {
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+}
+
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+.divToggleButtons {
+    display: flex;
+    justify-content: space-around
+}
+
+.toggleButton{
+    margin: 5px;
+    padding: 5px;
+    color: silver;
+}
+
+.tab-content{
+    background-color: silver;
+    margin-top: 1px;
+    display: flex;
+    justify-content: center
+}
+
+img {
+    object-fit: cover;
+}
+
+.grid {
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.gearIcon {
+    margin: 12px;
+}
+
+.img-thumbnail {
+    max-width: none;
+    width: 365px;
+    height: 322px;
+    margin-left: -12px;
+    margin-top: 2px;
+    padding: 2px;
+}
+
+.topnav {
+    margin-top: 15px;
+}
+
+#instagram {
+    font-family: 'Oleo Script', cursive;
+}
+
+
+
+
